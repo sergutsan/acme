@@ -10,7 +10,6 @@ getListFromFile(){
   return $result
 }
 
-
 STUDENTLIST=getListFromFile($STUDENTFILE)
 MODULELIST=getListFromFile($MODULEFILE)
 # Clone repos
